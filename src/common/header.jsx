@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {analytics} from "../firebase";
 import { logEvent } from "firebase/analytics";
+import { useEffect } from "react";
 const Header = () => {
   // State to handle mobile menu toggle
   const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +15,11 @@ const Header = () => {
       page_location: window.location.pathname,
     });
   };
+
+
   return (
-    <nav className="text-black sticky top-0 z-50 ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+    <nav className="sticky top-0 z-50 w-full transition-all duration-300 bg-white">
+      <div className="w-full  px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-20 bg-grey-500">
           {/* LEFT SECTION: Name and Nav Links */}
           <div className="flex items-center justify-between w-full h-20 font-sans">

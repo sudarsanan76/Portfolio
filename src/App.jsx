@@ -23,7 +23,7 @@ function App() {
       <div id="skills"><SkillsSection/></div>
       <div id="experience"><Experience/></div>
       <div id="projects"><ProjectCard/></div>
-      <div id="contact"><ContactSection/></div>
+      <div id="contact"><ContactSection/></div>      
     </>
   )
 }
