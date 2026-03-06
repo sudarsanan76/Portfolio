@@ -24,7 +24,7 @@ const text = "I’m Sudarsanan, a Software Engineer specializing in mobile and w
   }, [index, text]);
 
   return (
-    <div className="text-lg md:text-xl text-black-300 leading-relaxed max-w-2xl font-sans">
+    <div className="text-lg md:text-xl text-black-300 leading-relaxed max-w-2xl font-sans mt-4">
       <p>
         {displayedText}
         <span className="inline-block w-1 h-5 ml-1 bg-blue-400 animate-pulse align-middle"></span>

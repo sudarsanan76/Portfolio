@@ -50,6 +50,13 @@ const Header = () => {
                 Experience
               </a>
               <a
+                href="#projects"
+                onClick={()=>{handleButtonClick("Experience")}}
+                className="hover:text-blue-400 transition-colors"
+              >
+                Projects
+              </a>
+              <a
                 href="#contact"
                 onClick={()=>{handleButtonClick("Contact")}}
                 className="hover:text-blue-400 transition-colors"

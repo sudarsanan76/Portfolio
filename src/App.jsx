@@ -9,6 +9,7 @@ import SkillsSection from './sections/skill_section';
 import Experience from './sections/experience';
 import ContactSection from './sections/contact_section';
 import AnalyticsTracker from './common/analytics-tracker';
+import ProjectCard from './sections/projects_section';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <div id="about"><AboutSection/></div>
       <div id="skills"><SkillsSection/></div>
       <div id="experience"><Experience/></div>
+      <div id="projects"><ProjectCard/></div>
       <div id="contact"><ContactSection/></div>
     </>
   )
